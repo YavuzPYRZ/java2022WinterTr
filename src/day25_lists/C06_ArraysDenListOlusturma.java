@@ -22,6 +22,6 @@ public class C06_ArraysDenListOlusturma {
         arr[1] = "F";
         System.out.println("23. satırsa list: " +  Arrays.toString(arr)); // [A, F, C]
         System.out.println("24. satırsa list : " + arrydenList); //  [A, F, C]  yukarıda sadece array e atama yaptık
-                                                            // ama arrayden olusturulan yeni list de degiti.
+                                                            // ama arrayden olusturulan yeni list de degisti.
     }
 }
