@@ -21,6 +21,6 @@ public class C01_ForEachLoop {
         // AVANTAJI: index baslangıc degeri bitis degeri gibi detaylarla usgrasmamıza gerek kalmadan
         // collections dan tüm elementleri bize getirir
 
-        // DEZAVANTAJI ı ise index e baglı bir islem yapamayız
+        // DEZAVANTAJI ı ise index e baglı bir islem yapamayız.
     }
 }
