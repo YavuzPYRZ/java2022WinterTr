@@ -23,7 +23,7 @@ public class ToyotaRunner {
         t2.yakit = "Benzin";
         t2.yil = 2021;
         System.out.println("t2 model: " + t2.model + ", yakıt : "+ t2.yakit); //t2 model: Yaris, yakıt : Benzin
-
+ 
         //
     }
 }
