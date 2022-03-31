@@ -10,6 +10,15 @@ public class C01_LocalDate {
         // istedigimiz yil ay ve gun de-gerlerine gore bize obje olusturulur.
         System.out.println(trh); // 2022-03-31
 
+        System.out.println(trh.getDayOfMonth()); // 31 objenin olusturuldugu ayın gununu gosterir.
+
+        System.out.println(trh.getDayOfWeek()); // THURSDAY tarih perşembe gunu  olusturulmuş diyor.
+
+        System.out.println(trh.getMonthValue()); // 3 (mart ayıymış )  kaçoncı ay oldugunu yazdırır.
+
+        System.out.println(trh.getYear()); // 2022     yılı verir.
+
+
 
     }
 }
