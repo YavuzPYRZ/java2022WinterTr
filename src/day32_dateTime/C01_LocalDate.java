@@ -31,6 +31,9 @@ public class C01_LocalDate {
         // tatih dile gore degişmez
 
         System.out.println(LocalDate.now().isLeapYear()); // false  Leap yil mi deye bakıyor subat 28 cekti false oldu
+                                                            // 29 subatlar leep yıl
+
+
 
         // istedigimiz ulkenin o andaki tarihini elde etmek isterseniz
         LocalDate trhZone = LocalDate.now(ZoneId.of("Japan"));
@@ -40,8 +43,6 @@ public class C01_LocalDate {
 
 
         System.out.println(trh.isAfter(baskaTrh)); // true iki tarih i karşılaştır. eşit mi? aynı mi?
-
-
 
 
 
