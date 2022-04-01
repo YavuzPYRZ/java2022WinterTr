@@ -5,7 +5,7 @@ public class C03 {
     public static void arttirma(){
         sayi++;
         System.out.println("Sayinin C3 daki degeri  : "
-                + sayi);
+                 + sayi);
     }
 
 }
