@@ -17,7 +17,7 @@ public class C01_StaticBlocks {
 
     public static void main(String[] args) {
         System.out.println("Main method başlangıcı"); // statikden sonra çalıştı.
-        C01_StaticBlocks obj1; // obje tanımladık ama oluşturmadık  ---BAAAK bu satıra ---
+        C01_StaticBlocks obj1; // obje tanımladık ama oluşturmadık  ---BAAAK bu satıra  ---
         new C01_StaticBlocks();
 
     }
