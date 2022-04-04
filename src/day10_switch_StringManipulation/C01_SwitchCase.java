@@ -52,7 +52,7 @@ public class C01_SwitchCase {
                 break;
                 // switch içine yazılan variable nın degerine gore ilgili casi bulur
                 // ve break gorene kadar kodu çalıştırır eger break (kırmak demek)
-                // yoksa ilgili caseden asagı dogru tum case ler calısır
+                // yoksa ilgili caseden asagı dogru tum case ler calısır.
 
 
             default: // if elsenin sonundaki else gibi bir satır ekleyebiliriz
