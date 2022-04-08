@@ -2,8 +2,10 @@ package day38_inheritance_overriding;
 
 public class Isci extends Personel{
 
-    String statu = "Isci";
-    String haklar = "Iscile Kıdem Tazminatı alırlar";
+    public String statu = "Isci";
+    public String haklar = "Iscile Kıdem Tazminatı alırlar";
+    public String ikramiye = "isciler yilsa 1 ikramiye alır.";
+
     public void mesai(){
         System.out.println("Tum Isciler haftalık 40 saat çalışır.");
     }
