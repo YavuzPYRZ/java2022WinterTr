@@ -7,7 +7,7 @@ public class C01 {
     static  int acikSayi=20;
     public static int halkaAcikSayi=15;
     String acikString = "Hi";
-    C01(){ // bir construroctur oluşturduk
+    protected C01(){ // bir construroctur oluşturduk
             // dolayısıl-yla içinde olsugumuz classın dışındn
         // obje bile oluşturulamaz.
     }
