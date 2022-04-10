@@ -12,9 +12,9 @@ public class C05_StringBuilder {
         bir sb ile bir String'i compare etmek istersek Java CTE verir
          */
         StringBuilder sb1= new StringBuilder("Ali Can");
-        StringBuilder sb2= new StringBuilder("Ali Can");
+        StringBuilder sb2= new StringBuilder("ali Can");
         String str= "Ali Can";
-        System.out.println(sb1.compareTo(sb2)); // 0
+        System.out.println(sb1.compareTo(sb2)); // -32
         // System.out.println(sb1.compareTo(str));
 
         System.out.println(sb1.equals(sb2)); // false
