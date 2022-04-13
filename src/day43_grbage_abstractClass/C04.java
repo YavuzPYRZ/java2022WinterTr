@@ -15,6 +15,8 @@ public abstract class C04 {
         System.out.println("C04 concreta method");
     }
 
+////     public static   -----yazzzzzzzzz-------
+
     public static void main(String[] args) {
 
        /*
