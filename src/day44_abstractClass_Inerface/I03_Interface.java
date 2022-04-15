@@ -8,4 +8,7 @@ public interface I03_Interface {
 
     Interface ler de sadece abstrackt methodlar bulunur.
      */
+
+    public final static int sayi = 20;
+
 }
