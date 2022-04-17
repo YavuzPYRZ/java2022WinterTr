@@ -11,12 +11,25 @@ public class C05_Exception {
         int toplam=0;
         do{
             System.out.println("Lutfen toplamak istediginiz sayiyi giriniz \n bitirmek icin Q'ya basiniz");
+
             int sayi= 0;
+
+
             try {
                 sayi = scan.nextInt();
             } catch (InputMismatchException e) {
+                String hataliGiris = scan.next();
+
+                if (hataliGiris.equalsIgnoreCase("q")){
+                    System.out.println("girdiginiz sayıların toplamı :" + toplam);
+                }else {
+                    System.out.println("hatalı giriş");
+                }
             }
+
+
             toplam+=sayi;
         }while (toplam<500);
+        System.out.println("girdiginiz sayıların toplamı :" + toplam);
     }
 }

@@ -8,7 +8,7 @@ public class C02 extends C01 {
     bu ilişki bozulacagı için Java CTE verir.
 
     Notasyon kullanılmazsa Java bunların ilişkisini bilir
-    ama ovirridden method silinirse sesini cıkarmaz.
+    "ama ovirridden method silinirse sesini cıkarmaz.
      */
     protected void method2() {
         System.out.println("Child method 2");

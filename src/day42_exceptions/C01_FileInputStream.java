@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class C01_FileInputStream {
     public static void main(String[] args) {
-        String dosyaYolu = "day41_exceptions/dosya";
+        String dosyaYolu = "day41_exceptions/dosya.txt";
 
 
         try {
