@@ -1,4 +1,4 @@
-package day43_grbage_abstractClass;
+package day43_garbage_abstractClass;
 
 public abstract class C04 {
 

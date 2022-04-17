@@ -6,19 +6,19 @@ import java.io.IOException;
 
 public class C01_FileInputStream {
     public static void main(String[] args) {
-        String dosyaYolu = "day41_exceptions/dosya.txt";
+        String dosyaYolu = "src/day41_exceptions/dosya.txt";
 
 
         try {
             FileInputStream fis = new FileInputStream(dosyaYolu);
             int k=0;
             while ((k=fis.read()) != -1){
-                System.out.println((char) k);
+                System.out.print((char) k);
             }
         } catch (FileNotFoundException e) { // FileNotFoundException e
 
             e.printStackTrace();
-        } catch (IOException e) { // IOException e
+        } catch (IOException e) { // IOException yazma ve okuma ile alakalı hatalar.
             e.printStackTrace();
         }
 
@@ -33,7 +33,7 @@ public class C01_FileInputStream {
         altı kırmızı cizgili her kod CTE degildir
         Java syntax hatalarını derleme esnasında (compile) farkeder ve altını cizer
         biz bu gune kadar tamamına CTE diorduk ancak
-        exeption Tine
+        exception kunusu ile birlikte Compşle Time Exception kavramı da hayatımıza girdi.
          */
     }
 }

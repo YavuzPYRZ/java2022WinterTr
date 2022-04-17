@@ -13,5 +13,9 @@ public class C02_FileInputStream {
         } catch (FileNotFoundException e) {
             e.printStackTrace();  // hatayı yazdıracak ama calışmaya devam edecek.
         }
+
+        /*
+        eger exception olustugnda kodun calışmasına devmetmesiniz
+         */
     }
 }
