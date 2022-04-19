@@ -27,7 +27,7 @@ public class C02_LinkedList {
         ll1.offerLast(40); // 40 ı da sona ekledi. ve bize true dondurur.
         System.out.println(ll1);  // [10, 20, 30, 40]
 
-        ll1.peek();
+        System.out.println(ll1.peek()); //baştakı elemeti bize geririr bulamazsa null dondurur. // 10
 
 
 
