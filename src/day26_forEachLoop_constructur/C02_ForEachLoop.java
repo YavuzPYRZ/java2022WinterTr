@@ -1,6 +1,7 @@
 package day26_forEachLoop_constructur;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class C02_ForEachLoop {
@@ -8,6 +9,7 @@ public class C02_ForEachLoop {
         // on elementli bir list olusturalım
 
         int arr [] ={2, 5, 4, 6, 4, 9, 7, 1, 3, 10};
+        System.out.println(Arrays.toString(arr));
 
         List<Integer> sayilar = new ArrayList<>();
 

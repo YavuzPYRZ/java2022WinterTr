@@ -11,4 +11,5 @@ public interface I03_Interface {
 
     public final static int sayi = 20;
 
+
 }

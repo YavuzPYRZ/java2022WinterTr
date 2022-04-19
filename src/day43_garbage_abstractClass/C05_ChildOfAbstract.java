@@ -9,8 +9,14 @@ bizden child class ı abstract  yapmamızı yada parent class dakiabstract metho
 paret olan abstract class daki concrete methodlar ise opsiyoneldir. onları istersek override ederiz
  istemezsek override etmeyiz.
  */
-    @Override  /////----- duzel-------
-    public void method1() {
 
+    @Override
+    public void absmethod() {
+
+    }
+
+    @Override
+    public void concreteMethod() {
+        super.concreteMethod();
     }
 }

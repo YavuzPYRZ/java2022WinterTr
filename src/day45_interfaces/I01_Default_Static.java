@@ -23,6 +23,6 @@ public interface I01_Default_Static {
     }
 
     static void method3(){
-        System.out.println("Inerface deki statik method");
+        System.out.println("Inerface deki statik method  ");
     }
 }

@@ -8,14 +8,19 @@ public abstract class C04 {
                       concrete method ların override edilmesi OPSİYONEL dir
      */
 
-    public abstract void method1();
+    public abstract void absmethod();
 
     public void concreteMethod(){
 
         System.out.println("C04 concreta method");
     }
 
-////     public static   -----yazzzzzzzzz-------
+    public static void concreteStaticMethod(){
+
+        System.out.println("C04 concreta Static method");
+    }
+
+
 
     public static void main(String[] args) {
 

@@ -23,7 +23,7 @@ public class C02_ListeninElementleriniArttirma {
         ListIterator itr = liste.listIterator();
 
         while (itr.hasNext()){ // yanında element oldugu muddetce calışacak.
-            System.out.print(itr.next());
+           // System.out.print(itr.next());
 
             Object sayi = itr.next();
             itr.set((Integer)sayi + 3 );
