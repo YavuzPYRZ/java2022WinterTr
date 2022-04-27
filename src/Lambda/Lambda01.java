@@ -34,6 +34,8 @@ public class Lambda01 {
         printElFunctional1(sayi);
         System.out.println("\n   ***   ");
         printElFunctional2(sayi);
+        System.out.println("\n   ***   ");
+        printElFunctional2(sayi);
     }
     //Task : "Structured Programming" kullanarak list elemanlarını aynı satirda aralarında bosluk olacak sekilde print ediniz.
     public static void printElStuructured(List<Integer> sayi){
@@ -71,4 +73,18 @@ public class Lambda01 {
     public static void printElFunctional2(List<Integer> sayi){
         sayi.stream().forEach(Lambda01::yazdir);//method reference--> System.out yapısında prin methodu refere et
     }
+
+    //structured Programming ile list elemanlarinin  cift olanalrini ayni satirda aralarina bosluk birakarak print ediniz
+
+    public static void printCiftElStructurEt(List<Integer>sayi){
+        for (Integer w:sayi
+        ) { if(w%2==0)
+        {  System.out.print(w+" ");}
+        }
+    }
+    //Functional Programming ile list elemanlarinin  cift olanalrini ayni satirda aralarina bosluk birakarak print ediniz
+    public static void printCiftElFunctional(List<Integer>sayi){
+       sayi.stream().filter(t->t%2==0).forEach(Lambda01::yazdir);
+    }
+
 }
