@@ -18,7 +18,7 @@ public class C01_Maps {
         list.set(1, (Integer)(list.get(1)) + 10);
 
         /*
-        Jav da collevtion uyuesi bir yapda data turu object secilirse, her dta turunden deger ekleyebiliriz.
+        Java da collection uyuesi bir yapda data turu object secilirse, her data turunden deger ekleyebiliriz.
         ancak bu durumda surekli casting problemleri ile karşılasırız.
          */
 
@@ -26,13 +26,16 @@ public class C01_Maps {
         // bir sınıfta ogerenci no, isim, soyisim,bransh olarak map olusturmak istiyoruz
         // key tek bir unique degerdir. ama value/deger birden fazla bilgininin birleşiminden olusabilir.
         // bu durumda daha sonra istedigiiz bilgilere ulasabilmek icin tum elementler için
-        // value aynıı bicimde olusturulmalıdır.
+        // value aynı bicimde olusturulmalıdır.
 
         /*
-        Veri sıralaması ve şekilsel acıdan da..
+        Veri sıralaması ve şekilsel acıdan da.. boşluklar falan gibi mesela
          */
 
        // Map<Integer,String> sinifListesi = new HashMap<>();
+        sinifListesi.put(101,"Ali, Can, Dev");
+        sinifListesi.put(102,"Veli, Yan, QA");
+        sinifListesi.put(103,"Ali, Yan, C");
 
         System.out.println(sinifListesi); // {101=Ali, Can, Dev, 102=Veli, Yan, QA, 103=Ali, Yan, Dev}
 

@@ -12,7 +12,7 @@ public class C01_Maps {
 
          */
 
-        Map<Integer, String> sinifList = MapOlustur.myMap();
+        Map<Integer, String> sinifList = MapOlustur.myMap();// sag tarafta day49 dan Map olustur'u getirip sol tarafa atadık
         System.out.println(sinifList); //
 
 
