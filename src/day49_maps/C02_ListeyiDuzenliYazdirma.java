@@ -23,13 +23,18 @@ public class C02_ListeyiDuzenliYazdirma {
                                             // ama içinde işlem yapabilmek için set'e atayalım,
                                              // int lerden oluşsun. adı da keySet olsun
 
-        Collection<String> valueSet=sinif.values();
-        System.out.println(keySet);
-        System.out.println(valueSet);
-        System.out.println(valueSet.size());
+        Collection<String> valueSet=sinif.values(); // yukarıda keyleri getirmiştik şimdi de key leri getirelim.
+
+                                // yukarıdaki 2 işlem acıklamada yazan 1. adım.(iki farklı collection uyesine atadık)
+
+        System.out.println(keySet); // [101, 102, 103]
+        System.out.println(valueSet); // [Ali, Can, Dev, Veli, Yan, QA, Ali, Yan, C]
+        System.out.println(valueSet.size());   // 3 value nin boyutu 9 degil 3 tür dikkaaaat
         for (String each: valueSet
         ) {
-            System.out.println(each);
+            System.out.println(each); //Ali, Can, Dev
+                                      //  Veli, Yan, QA
+                                    // Ali, Yan, C
         }
     }
 }
