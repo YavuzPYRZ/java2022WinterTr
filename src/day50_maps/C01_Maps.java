@@ -43,6 +43,49 @@ public class C01_Maps {
         System.out.println(sinifValueList);// [Ali, Can, Dev, Veli, Yan, QA, Ali, Yan, C]
 
 
+        // şimdi bu listeyi multi damentionel Array a atmak istiyorum
+        //hebir value birden fazla bilgi içiriyor. onun için valueleri
+        // mDA a atmak mantılı amcak MDA için boyutları bilmemiz gerekiyor.
+
+        int outerArrayBoyut = sinifValueList.size();
+        System.out.println(outerArrayBoyut); // 3
+// inner arrayların boyutunu bulmak biraz daha komlex olacak.
+
+        String ilkValue = sinifValueList.get(0);
+        System.out.println(ilkValue); // Ali, Can, Dev
+        String ilkValueArray[] = ilkValue.split(", ");
+        int innerArrayBoyut = ilkValueArray.length;
+        System.out.println(innerArrayBoyut);  //  3
+
+        String valueMDArr[][] = new String[outerArrayBoyut][innerArrayBoyut];
+
+        for (int i = 0; i <outerArrayBoyut ; i++) {
+            String temp[] = sinifValueList.get(i).split(", ");
+
+            for (int j = 0; j <innerArrayBoyut ; j++) {
+           valueMDArr[i][j] = temp[j];
+            }
+
+
+        }
+        //  System.out.println(Arrays.deepToString(valueMDArr));
+
+
+// bu satıra kadar key leri index ile ulasabildigim keyList e atadık
+     //   value leri MDA olan valueMDArr a atadım.
+        // simdi bu key ve valueleri istediğim gibi manipule edebilirim.
+
+        System.out.println("Numara  Isim   Soyisim  Brans");
+        System.out.println("=============================");
+
+        for (int i = 0; i <keyList.size() ; i++) {
+            System.out.print(keyList.get(i) + "   ");
+            for (int j = 0; j <innerArrayBoyut ; j++) {
+                System.out.print(valueMDArr[i][j]+ "   ");
+
+            }
+            System.out.println("");
+        }
 
     }
 

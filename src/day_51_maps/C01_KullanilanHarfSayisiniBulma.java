@@ -4,11 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class C01_KullanilanHarfSayisiniBulma {
-    public static void main(String[] args) {
-            /*
+    /*
             Verilen bir String’deki harfleri ve
             harflerin kacar kez kullanildigini return eden bir method yaziniz
              */
+    public static void main(String[] args) {
+
         String input ="Helloooooooo";
         String harflerArr[] = input.split("");
 
