@@ -1,7 +1,8 @@
-package day_51_maps;
+package day51_maps;
 
 import day49_maps.MapOlustur;
 
+import java.util.List;
 import java.util.Map;
 
 public class C02_IstenenElementleriListele {
@@ -14,6 +15,13 @@ public class C02_IstenenElementleriListele {
     sonuç [Ali, Veli]
      */
     public static void main(String[] args) {
-        Map<Integer,String> sınıfMap =  MapOlustur.myMap();
+        Map<Integer,String> sinifMap =  MapOlustur.myMap();
+String istenenDil ="Java";
+        List<String> istenenDiliBilenlerListesi = istenenDiliBilenlerListesiOlustur(sinifMap,istenenDil);
+    }
+
+    public static List<String> istenenDiliBilenlerListesiOlustur(Map<Integer, String> sinifMap, String istenenDil) {
+
+        return null;
     }
 }
